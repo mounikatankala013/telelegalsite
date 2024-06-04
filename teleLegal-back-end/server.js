@@ -23,6 +23,7 @@ const io = socketio(expressServer,{
         'https://localhost:3001',
         'https://localhost:3002',
         'https://www.deploying-javascript.com',
+        'https://stream.fxuav5g.live',
         // 'http://www.deploying-javascript.com', TEST ONLY
     ]
 })
