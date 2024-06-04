@@ -8,7 +8,7 @@ const socketConnection = (jwt)=>{
         return socket;
     }else{
         //its not connected... connect!
-        socket = io.connect('https://api.deploying-javascript.com',{
+        socket = io.connect('https://server.fxuav5g.live',{
             auth: {
                 jwt
             }

@@ -128,7 +128,7 @@ const ProMainVideoPage = ()=>{
         const token = searchParams.get('token');
         console.log(token)
         const fetchDecodedToken = async()=>{
-            const resp = await axios.post('https://api.deploying-javascript.com/validate-link',{token});
+            const resp = await axios.post('https://server.fxuav5g.live/validate-link',{token});
             console.log(resp.data);
             setApptInfo(resp.data)
         }
